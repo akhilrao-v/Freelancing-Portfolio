@@ -77,7 +77,7 @@ body {
 }
 
 .nav-link:hover::before {
-    width: 80%;
+    width: 100%;
 }
 
 .navbar-toggler {
@@ -930,6 +930,7 @@ body {
         margin: 10px;
         padding: 12px 16px;
     }
+    
 }
 
 @media (max-width: 576px) {
@@ -1000,7 +1001,11 @@ body {
     .navbar-brand {
         font-size: 1.1rem;
     }
-    
+    .nav-item{
+        align-items: center;
+        justify-items: center;
+        
+    }
     .nav-link {
         font-size: 0.9rem;
     }
