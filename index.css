@@ -22,11 +22,11 @@ body {
 
 /* Enhanced Navbar Styles */
 .navbar {
-    background: rgba(47, 46, 46, 0.95) !important;
+    background: linear-gradient(135deg, var(--primary-accent) 0%, var(--background-dark) 100%) !important;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(242, 153, 74, 0.2);
     transition: all 0.3s ease;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
 }
 
 .navbar-brand {
@@ -89,12 +89,12 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(242, 153, 74, 0.25);
 }
 .logo{
-    width: 100%;
-    height: 23px;
+    width: 120px;
+    height: auto;
 }
 .hero_container{
     height: 100vh;
-    background: linear-gradient(135deg, var(--primary-accent) 0%, var(--background-dark) 100%);
+    background: linear-gradient(85deg, var(--primary-accent) 0%, var(--background-dark) 100%);
     display: flex;
     align-items: center;
     position: relative;
@@ -120,7 +120,7 @@ body {
   padding: 18px 36px;
   border-radius: 12px;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  /* box-shadow: 0 8px 25px rgba(0,0,0,0.3); */
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -145,7 +145,7 @@ body {
 
 .bg-brand:hover {
   transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  /* box-shadow: 0 20px 40px rgba(0,0,0,0.4); */
   background: linear-gradient(135deg, rgba(255,255,255,0.9), var(--background-white)) !important;
   color: var(--primary-accent) !important;
 }
@@ -156,7 +156,7 @@ body {
 }
 .button:hover {
   transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 10px 25px rgba(24, 23, 22, 0.4);
+  /* box-shadow: 0 10px 25px rgba(24, 23, 22, 0.4); */
 }
 
 .bg-brand:hover {
@@ -227,16 +227,17 @@ body {
     color: var(--background-white);
     background: transparent;
     font-weight: 600 !important;
-    padding: 12px 24px;
+    padding: 8px 12px !important;
     border-radius: 8px;
     transition: all 0.3s ease;
 }
 
 .btn-outline-light:hover {
-    background: var(--background-white);
-    color: var(--primary-accent);
+    border: none;
+    background: black !important;
+    color: var(--primary-accent) !important;
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 10px 20px var(--shadow-medium);
+    /* box-shadow: 0 10px 20px var(--shadow-medium); */
 }
 
 .hero-social {
@@ -499,7 +500,7 @@ body {
 }
 /* Call to Action Section - Enhanced Banner */
 #cta-section {
-    background: linear-gradient(135deg, var(--primary-accent) 100%);
+    background: #f2984af1;
     color: var(--background-white);
     padding: 100px 0;
     position: relative;
@@ -516,7 +517,7 @@ body {
     background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="cta-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23cta-grid)"/></svg>');
     opacity: 0.5;
 }
-
+/* 
 #cta-section::after {
     content: '';
     position: absolute;
@@ -524,27 +525,25 @@ body {
     left: -30%;
     width: 160%;
     height: 160%;
-    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 60%);
+    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
     animation: float 8s ease-in-out infinite;
 }
-
 @keyframes float {
     0%, 100% { transform: translate(0, 0) rotate(0deg); }
     50% { transform: translate(-15px, -15px) rotate(90deg); }
 }
-
+*/
 .cta-content {
     position: relative;
     z-index: 2;
     text-align: center;
 }
-
 .cta-title {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 1.5rem;
-    color: var(--background-white);
-    text-shadow: 0 3px 6px rgba(0,0,0,0.4);
+    color: #000000;
+    /* text-shadow: 0 3px 6px rgba(0,0,0,0.4); */
     animation: slideInUp 1s ease-out;
 }
 
@@ -560,15 +559,16 @@ body {
 }
 
 .cta-description {
+    color: #3d3d3d;
     font-size: 1.2rem;
     margin-bottom: 2.5rem;
     opacity: 0.95;
     line-height: 1.6;
-    max-width: 600px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     animation: slideInUp 1s ease-out 0.2s both;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    /* text-shadow: 0 2px 4px rgba(0,0,0,0.3); */
 }
 
 .cta-buttons {
@@ -588,8 +588,8 @@ body {
     font-size: 1.1rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    /* box-shadow: 0 8px 25px rgba(0,0,0,0.2); */
+    /* text-shadow: 0 1px 2px rgba(0,0,0,0.3); */
 }
 
 .btn-outline-light::before {
@@ -611,7 +611,7 @@ body {
     background: var(--background-white);
     color: var(--primary-accent);
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    /* box-shadow: 0 20px 40px rgba(0,0,0,0.4); */
     border-color: var(--background-white);
     text-shadow: none;
 }
@@ -621,7 +621,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.75rem;
-    color: var(--background-white);
+    color: #3d3d3d;;
     font-weight: 600;
     padding: 1.25rem;
     background: rgba(255, 255, 255, 0.15);
@@ -635,14 +635,14 @@ body {
 .feature-item:hover {
     background: rgba(255, 255, 255, 0.25);
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     border-color: rgba(255, 255, 255, 0.4);
 }
 
 .feature-item i {
     font-size: 1.4rem;
-    color: var(--background-white);
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    color: #3d3d3d;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
 /* Project Section */
