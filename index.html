@@ -18,7 +18,7 @@
   <a href="#hero-section" class="skip-link">Skip to main content</a>
   <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand href="#"><img src="./akhil rao no bg(1)(1).png" class="logo" /></a>
+      <a class="navbar-brand" href="#home"><img src="./akhil rao no bg(1)(1).png" class="logo" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,10 +50,22 @@
       <div class="container">
         <div class="row align-items-center min-vh-100">
           <div class="col-lg-6 order-lg-2">
-            <div class="text-center">
+            <!-- <div class="text-center">
               <img src="./bg-profile.png" class="myImageCircle img-fluid" alt="Akhil Rao - Web Developer"
                 loading="lazy" />
-            </div>
+            </div> -->
+             <div class="home-img">
+        <div class="home-img-wrapper">
+          <img src="./profile_removebg.png" class="myImageCircle img-fluid" alt="Akhil Rao - Web Developer"
+                loading="lazy" />
+          <div class="floating-elements">
+            <div class="floating-element element-1"><i class="fa-brands fa-html5"></i></div>
+            <div class="floating-element element-2"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="floating-element element-3"><i class="fa-brands fa-js"></i></div>
+            <div class="floating-element element-4"><i class="fa-brands fa-react"></i></div>
+          </div>
+        </div>
+      </div>
           </div>
           <div class="col-lg-6 order-lg-1">
             <div class="hero-content">
@@ -75,17 +87,17 @@
                   Start a Project
                 </a>
               </div>
-              <div class="hero-social mt-4">
-                <!-- <a href='https://drive.google.com/drive/folders/1Sb65zpB_thMfiV46OSIF8SkWWQB7mpOL?usp=sharing' class="social-link me-3">
+              <!-- <div class="hero-social mt-4">
+                <a href='https://drive.google.com/drive/folders/1Sb65zpB_thMfiV46OSIF8SkWWQB7mpOL?usp=sharing' class="social-link me-3">
                   <i class="fas fa-file-alt"></i> Resume
-                </a> -->
+                </a>
                 <a href='https://www.linkedin.com/in/akhil-rao-28071999v/' class="social-link me-3">
                   <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
                 <a href='https://github.com/akhilrao-v/' class="social-link">
                   <i class="fab fa-github"></i> GitHub
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -93,16 +105,53 @@
     </div>
   </section>
   <!-- about section -->
-  <div class="about-cont p-5">
-    <section id="aboutMeSection" class="mt-3 mx-5 mb-1">
+  <div class="about-cont p-4">
+    <section id="aboutMeSection" class="mt-3 mx-3 mb-1">
       <div class="about text-center fw-semibold">
         <h1 class="heading mb-3">About Me</h1>
-        <p>
+        <p class="mt-5 mb-4">
           Passionate Full-Stack Developer with hands-on experience in building responsive and user-friendly web applications.
 Skilled in JavaScript, React.js, HTML5, CSS3, Tailwind CSS, Redux Toolkit and UI/UX design. Strong background in developing intuitive
 interfaces, optimising web performance, and collaborating with teams to deliver high-quality digital solutions.
 Quick learner with a keen eye for detail, dedicated to creating seamless user experiences and scalable applications.        </p>
       </div>
+      <!-- About Skills  -->
+          
+          <div class="about-skills">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Tailwind CSS</span>
+            <span>Redux Toolkit</span>
+            <span>UI/UX Design</span>
+          </div>
+
+          <!-- Experience Boxes  -->
+          <div class="exp-boxes">
+            <div class="exp-box">
+              <h3>3+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="exp-box">
+              <h3>20+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="exp-box">
+              <h3>10+</h3>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="about-socials">
+            <a href="https://www.linkedin.com/in/akhil-rao-28071999v/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/akhilrao-v/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
     </section>
   </div>
   
@@ -213,78 +262,122 @@ Quick learner with a keen eye for detail, dedicated to creating seamless user ex
   <!-- skills -->
   <section id="myskills">
     <h1 class="heading text-center mt-5">My Skills</h1>
-    <div class="skills">
-      <div class="container text-center ">
-        <div class="row justify-content-evenly">
-          <div class="col-md-4 col-xs-4 ">
-            <p class="box">Python</p>
+      <div class="container">
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <p class="skill-name">Python</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">JavaScript</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <p class="skill-name">JavaScript</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Html</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <p class="skill-name">Html</p>
           </div>
-        </div>
-        <div class="row justify-content-evenly">
-          <div class="col-md-4 col-xs-4">
-            <p class="box">CSS</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <p class="skill-name">CSS</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Bootstrap</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-bootstrap"></i>
+            </div>
+            <p class="skill-name">Bootstrap</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">React Js</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <p class="skill-name">React Js</p>
           </div>
-        </div>
-        <div class="row justify-content-evenly">
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Tailwind CSS</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M11.782 5.72a4.773 4.773 0 0 0-4.8 4.173 3.43 3.43 0 0 1 2.741-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.934-2.865 3.137-3.921-.969 1.379-2.44 2.207-4.259 1.231-1.253-.673-2.19-3.438-5.959-3.318ZM6.8 11.979A4.772 4.772 0 0 0 2 16.151a3.431 3.431 0 0 1 2.745-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.933-2.865 3.137-3.921-.97 1.379-2.44 2.208-4.259 1.231-1.253-.673-2.19-3.443-5.963-3.317Z"/>
+</svg>
+            </div>
+            <p class="skill-name">Tailwind CSS</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Next js</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="40" fill="currentColor" viewBox="0 0 48 48">
+<path  d="M18.974,31.5c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5v-14c0-0.653,0.423-1.231,1.045-1.43 c0.625-0.198,1.302,0.03,1.679,0.563l16.777,23.704C40.617,36.709,44,30.735,44,24c0-11-9-20-20-20S4,13,4,24s9,20,20,20 c3.192,0,6.206-0.777,8.89-2.122L18.974,22.216V31.5z M28.974,16.5c0-0.828,0.671-1.5,1.5-1.5s1.5,0.672,1.5,1.5v13.84l-3-4.227 V16.5z"></path>
+</svg>
+            </div>
+            <p class="skill-name">Next js</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Node js</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <p class="skill-name">Node js</p>
           </div>
-        </div>
-        <div class="row justify-content-evenly">
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Mysql</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <p class="skill-name">Mysql</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Power BI</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <p class="skill-name">Power BI</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">MS Excel</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-table"></i>
+            </div>
+            <p class="skill-name">MS Excel</p>
           </div>
-        </div>
-        <div class="row justify-content-evenly">
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Figma</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-figma"></i>
+            </div>
+            <p class="skill-name">Figma</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">UI/UX Designer</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+            <p class="skill-name">UI/UX Designer</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Graphic Designer</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <p class="skill-name">Graphic Designer</p>
           </div>
-
-        </div>
-        <div class="row justify-content-evenly">
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Facebook Marketing</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-facebook"></i>
+            </div>
+            <p class="skill-name">Facebook Marketing</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Instagram Marketing</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <p class="skill-name">Instagram Marketing</p>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <p class="box">Google Ads</p>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-ad"></i>
+            </div>
+            <p class="skill-name">Google Ads</p>
           </div>
         </div>
       </div>
-
-    </div>
   </section>
   <!-- Experience section -->
   <section id="myexperience">
@@ -348,117 +441,139 @@ Quick learner with a keen eye for detail, dedicated to creating seamless user ex
         </div>
       </div>
 
-    <div class="Project col-xs-6 col-md-8">
-
-      <div class="p2">
-        <h3>Agency website & mobile app built using React vite.</h3>
-        <p>
-          Built a dynamic agency website from ground up. created a seamless user experience with a responsive design and
-          an intuitive navigation system. leveraging technolgies like HTML, SCSS, Bootstrap, JavaScript,React vite.
-        </p>
-        <div>
-          <a href='https://github.com/akhilrao-v/Agency-Website-mobile-Application-using-React-vite'>
-            <button class="button btn btn-dark btn-sm">GitHub</button>
-          </a>
-          <a href="https://agency-website-mobile-app.vercel.app/">
-            <button class="button btn btn-sm btn-warning">Demo</button>
-          </a>
+    <div id="projects-container" class="projects-container">
+      <div class="Project col-xs-6 col-md-8" data-project="1">
+        <div class="p1">
+          <img src="./agency.JPG" alt="" width="100%" class="projectImage">
+        </div>
+        <div class="p2">
+          <h3>Agency website & mobile app built using React vite.</h3>
+          <p>
+            Built a dynamic agency website from ground up. created a seamless user experience with a responsive design and
+            an intuitive navigation system. leveraging technolgies like HTML, SCSS, Bootstrap, JavaScript,React vite.
+          </p>
+          <div>
+            <a href='https://github.com/akhilrao-v/Agency-Website-mobile-Application-using-React-vite'>
+              <button class="button btn btn-dark btn-sm">GitHub</button>
+            </a>
+            <a href="https://agency-website-mobile-app.vercel.app/">
+              <button class="button btn btn-sm btn-warning">Demo</button>
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="p1">
-        <img src="./agency.JPG" alt="" width="100%" class="projectImage">
+      <div class="Project col-xs-6 col-md-8" data-project="1">
+        <div class="p2">
+          <h3>Food Basket</h3>
+          <p>
+            Built a React/Vite food delivery app with Context API for global state, implementing cart functionality, login modal, and reusable UI components.
+          </p>
+          <div>
+            <a href='https://github.com/akhilrao-v/food-basket/'>
+              <button class="button btn btn-dark btn-sm">GitHub</button>
+            </a>
+            <a href="https://food-basket-project.vercel.app/">
+              <button class="button btn btn-sm btn-warning">Demo</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="p1">
+          <img src="./foobasket.JPG" alt="" width="100%" class="projectImage">
+        </div>
       </div>
+
+      <div class="Project col-xs-6 col-md-8" data-project="1">
+        <div class="p1">
+          <img src="./whether.png" alt="" width="100%" class="projectImage">
+        </div>
+        <div class="p2">
+          <h3>Live weather forecast website</h3>
+          <p>
+            Integrated public APIs to display live weather data for selected locations on web and mobile interfaces -
+            Technologies: HTML, CSS, Bootstrap, JQuery
+          </p>
+          <div>
+            <a href='https://github.com/akhilrao-v/Live-weather'>
+              <button class="button btn btn-dark btn-sm">GitHub</button>
+            </a>
+            <a href="https://akhilrao-v.github.io/Live-weather/">
+              <button class="button btn btn-sm btn-warning">Demo</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="Project col-xs-6 col-md-8" data-project="2">
+        <div class="p2">
+          <h3>My Home Project</h3>
+          <p>
+            A real-estate platform for materials, labor, and builder booking using React, Vite, Supabase, and Redux Toolkit.
+          </p>
+          <div>
+            <a href='https://github.com/akhilrao-v/My-Home-Project'>
+              <button class="button btn btn-dark btn-sm">GitHub</button>
+            </a>
+            <a href="https://my-home-build-your-dream-home.vercel.app/">
+              <button class="button btn btn-sm btn-warning">Demo</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="p1">
+          <img src="./Myhome.JPG" alt="" width="100%" class="projectImage">
+        </div>
+      </div>
+
+      <div class="Project col-xs-6 col-md-8 mb-3" data-project="2">
+        <div class="p1">
+          <img src="./expenseTracker.webp" alt="" width="100%" class="projectImage">
+        </div>
+        <div class="p2">
+          <h3>Expense Tracker</h3>
+          <p>
+            Developed a responsive Ul to track and visualize daily expenses. Built with Bootstrap Grid, Flexbox, HTML,
+            CSS, and JavaScript
+
+          </p>
+          <div>
+            <a href='https://github.com/akhilrao-v/Expense-tracker'>
+              <button class="button btn btn-dark btn-sm">GitHub</button>
+            </a>
+            <a href="https://akhilrao-v.github.io/Expense-tracker/Index.html">
+              <button class="button btn btn-sm btn-warning">Demo</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="Project col-xs-6 col-md-8" data-project="2">
+        <div class="p2">
+          <h3>AI Social Media Post Generator</h3>
+          <p>
+            Built a web app using Gemini API to generate social media posts from raw text. Developed with React + Vite
+and deployed on Vercel for fast, seamless content creation.
+          </p>
+          <div>
+            <a href='https://github.com/akhilrao-v/AI-Social-Media-Post-Generator'>
+              <button class="button btn btn-dark btn-sm">GitHub</button>
+            </a>
+            <a href="https://ai-social-media-post-generator-three.vercel.app/">
+              <button class="button btn btn-sm btn-warning">Demo</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="p1">
+          <img src="./social media post generator.JPG" alt="" width="100%" class="projectImage">
+        </div>
+      </div>
+
     </div>
 
-    <div class="Project col-xs-6 col-md-8">
-
-      <div class="p2">
-        <h3>Food Basket</h3>
-        <p>
-          Built a React/Vite food delivery app with Context API for global state, implementing cart functionality, login modal, and reusable UI components.
-        </p>
-        <div>
-          <a href='https://github.com/akhilrao-v/food-basket/'>
-            <button class="button btn btn-dark btn-sm">GitHub</button>
-          </a>
-          <a href="https://food-basket-project.vercel.app/">
-            <button class="button btn btn-sm btn-warning">Demo</button>
-          </a>
-        </div>
-      </div>
-
-      <div class="p1">
-        <img src="./foobasket.JPG" alt="" width="100%" class="projectImage">
-      </div>
-    </div>
-
-
-    <div class="Project col-xs-6 col-md-8">
-      <div class="p1">
-        <img src="./whether.png" alt="" width="100%" class="projectImage">
-      </div>
-      <div class="p2">
-        <h3>Live weather forecast website</h3>
-        <p>
-          Integrated public APIs to display live weather data for selected locations on web and mobile interfaces -
-          Technologies: HTML, CSS, Bootstrap, JQuery
-        </p>
-        <div>
-          <a href='https://github.com/akhilrao-v/Live-weather'>
-            <button class="button btn btn-dark btn-sm">GitHub</button>
-          </a>
-          <a href="https://akhilrao-v.github.io/Live-weather/">
-            <button class="button btn btn-sm btn-warning">Demo</button>
-          </a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="Project col-xs-6 col-md-8">
-
-      <div class="p2">
-        <h3>My Home Project</h3>
-        <p>
-          A real-estate platform for materials, labor, and builder booking using React, Vite, Supabase, and Redux Toolkit.
-        </p>
-        <div>
-          <a href='https://github.com/akhilrao-v/My-Home-Project'>
-            <button class="button btn btn-dark btn-sm">GitHub</button>
-          </a>
-          <a href="https://my-home-build-your-dream-home.vercel.app/">
-            <button class="button btn btn-sm btn-warning">Demo</button>
-          </a>
-        </div>
-      </div>
-
-      <div class="p1">
-        <img src="./Myhome.JPG" alt="" width="100%" class="projectImage">
-      </div>
-    </div>
-
-
-    <div class="Project col-xs-6 col-md-8 mb-3">
-      <div class="p1">
-        <img src="./expenseTracker.webp" alt="" width="100%" class="projectImage">
-      </div>
-      <div class="p2">
-        <h3>Expense Tracker</h3>
-        <p>
-          Developed a responsive Ul to track and visualize daily expenses. Built with Bootstrap Grid, Flexbox, HTML,
-          CSS, and JavaScript
-
-        </p>
-        <div>
-          <a href='https://github.com/akhilrao-v/Expense-tracker'>
-            <button class="button btn btn-dark btn-sm">GitHub</button>
-          </a>
-          <a href="https://akhilrao-v.github.io/Expense-tracker/Index.html">
-            <button class="button btn btn-sm btn-warning">Demo</button>
-          </a>
-        </div>
-      </div>
+    <!-- Pagination -->
+    <div class="pagination-container text-center mt-3">
+      <div id="pagination" class="pagination"></div>
     </div>
   </section>
   
@@ -609,29 +724,19 @@ Quick learner with a keen eye for detail, dedicated to creating seamless user ex
             <h4 class="mb-4">Contact Me :</h4>
             <p>Email: akhil.skillshot@gmail.com</p>
             <p>Mobile: 9110364055</p>
-            <div class="social d-grid gap-2 d-md-flex justify-content-md-start">
-
-              <a class="button btn btn-success mt-4" href="https://wa.me/+919110364055?text=Hello%20there!" role="button"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-whatsapp"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                </svg></a>
-              <a class="button btn btn-danger mt-4" href="mailto:akhil.skillshot@gmail.com" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                </svg></a>
-              <a class="button btn btn-light mt-4" href="https://github.com/akhilrao-v" role="button"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-github"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                </svg></a>
-              <a class="button btn btn-primary mt-4" href="https://www.linkedin.com/in/akhil-rao-28071999v/" role="button"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-                </svg></a>
+            <div class="social-buttons d-flex gap-3 mt-4">
+              <a href="https://wa.me/+919110364055?text=Hello%20there!" class="social-btn whatsapp" role="button" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="mailto:akhil.skillshot@gmail.com" class="social-btn email" role="button" title="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://github.com/akhilrao-v" class="social-btn github" role="button" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/akhil-rao-28071999v/" class="social-btn linkedin" role="button" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -701,17 +806,17 @@ Quick learner with a keen eye for detail, dedicated to creating seamless user ex
       {
         title: "Web Developer",
         company: "Freelancer",
-        date: "3+ years",
+        date: "3+",
         },
       {
         title: "UI/UX Design",
         company: "Freelancer",
-        date: "2+ years",
+        date: "3+",
         },
       {
         title: "Social Media Marketing ",
         company: "Freelancer",
-        date: "2+ years",
+        date: "3+",
         }
     ];
 
@@ -721,7 +826,7 @@ Quick learner with a keen eye for detail, dedicated to creating seamless user ex
     <div class="experience-card-body">
       <div class="experience-card-title">${exp.title}</div>
       <div class="experience-card-company">${exp.company}</div>
-      <div class="experience-card-date">${exp.date}</div>
+      <div class="experience-card-date"><h2>${exp.date}</h2><p> Years of Experience</p></div>
     </div>
   </div>`).join('');
 
@@ -748,6 +853,76 @@ Quick learner with a keen eye for detail, dedicated to creating seamless user ex
           typeWriter(heroTitle, originalText, 150);
         }, 1000);
       }
+
+      // Project Pagination
+      const projectsPerPage = 3;
+      const projects = document.querySelectorAll('.Project');
+      const totalPages = Math.ceil(projects.length / projectsPerPage);
+      let currentPage = 1;
+
+      function displayProjects(page) {
+        projects.forEach((project, index) => {
+          project.classList.remove('active');
+          const projectPage = Math.floor(index / projectsPerPage) + 1;
+          if (projectPage === page) {
+            project.classList.add('active');
+          }
+        });
+      }
+
+      function createPagination() {
+        const paginationContainer = document.getElementById('pagination');
+        paginationContainer.innerHTML = '';
+
+        // Previous button
+        const prevBtn = document.createElement('button');
+        prevBtn.innerHTML = '<i class="fa-solid fa-angle-left"></i>';
+        prevBtn.disabled = currentPage === 1;
+        prevBtn.onclick = () => {
+          if (currentPage > 1) {
+            currentPage--;
+            displayProjects(currentPage);
+            createPagination();
+            window.scrollTo({ top: document.getElementById('ProjectSection').offsetTop, behavior: 'smooth' });
+          }
+        };
+        paginationContainer.appendChild(prevBtn);
+
+        // Page numbers
+        for (let i = 1; i <= totalPages; i++) {
+          const pageBtn = document.createElement('button');
+          pageBtn.textContent = i;
+          pageBtn.classList.add('page-number');
+          if (i === currentPage) {
+            pageBtn.classList.add('active');
+          }
+          pageBtn.onclick = () => {
+            currentPage = i;
+            displayProjects(currentPage);
+            createPagination();
+            window.scrollTo({ top: document.getElementById('ProjectSection').offsetTop, behavior: 'smooth' });
+          };
+          paginationContainer.appendChild(pageBtn);
+        }
+
+        // Next button
+        const nextBtn = document.createElement('button');
+        nextBtn.innerHTML = '<i class="fa-solid fa-angle-right"></i>';
+        nextBtn.disabled = currentPage === totalPages;
+        nextBtn.onclick = () => {
+          if (currentPage < totalPages) {
+            currentPage++;
+            displayProjects(currentPage);
+            createPagination();
+            window.scrollTo({ top: document.getElementById('ProjectSection').offsetTop, behavior: 'smooth' });
+          }
+        };
+        paginationContainer.appendChild(nextBtn);
+      }
+
+      // Initialize pagination
+      displayProjects(currentPage);
+      createPagination();
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
